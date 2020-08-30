@@ -18,11 +18,13 @@ Also note that the entire /steamcmd/7dtd can be mounted on the host system, whic
 
 Make sure that the 7D2D serverconfig.xml file has the same server and telnet password as the one you've set in .env file
 | *.ev* | *serverconfig.xml*  |
+| ------------- | ------------- |
 | SEVEN_DAYS_TO_DIE_SERVER_PASSWORD=testPassword   | <property name="ServerPassword"					value="testPassword"/>	 |
 
 
 ```SEVEN_DAYS_TO_DIE_START_MODE```. This determines if the server should update and then start (mode 0), only update (mode 1) or only start (mode 2)) The default value is ```"0"```.
 | *Argument* | *Value*  | *Description*  |
+| ----------------------------- | --- | ---------------------------------------------|
 | SEVEN_DAYS_TO_DIE_START_MODE   | 0 (Default) | server should update and then start |
 | SEVEN_DAYS_TO_DIE_START_MODE | 1 | server should only update |
 | SEVEN_DAYS_TO_DIE_START_MODE | 2 | server should only start |
